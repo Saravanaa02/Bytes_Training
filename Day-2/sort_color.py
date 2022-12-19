@@ -1,7 +1,4 @@
 def sortColors(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
         left = cur = 0
         right = len(nums)-1
         while cur<=right:
